@@ -15,6 +15,7 @@ export type ImageUpscaylPayload = {
   tileSize: number;
   ttaMode: boolean;
   copyMetadata: boolean;
+  keepOriginalFilename?: boolean;
 };
 
 export type DoubleUpscaylPayload = {
@@ -34,6 +35,7 @@ export type DoubleUpscaylPayload = {
   tileSize: number;
   ttaMode: boolean;
   copyMetadata: boolean;
+  keepOriginalFilename?: boolean;
 };
 
 export type BatchUpscaylPayload = {
@@ -50,4 +52,5 @@ export type BatchUpscaylPayload = {
   tileSize: number;
   ttaMode: boolean;
   copyMetadata: boolean;
+  keepOriginalFilename?: boolean;
 };

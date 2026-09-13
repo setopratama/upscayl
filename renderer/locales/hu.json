@@ -13,7 +13,9 @@
   },
   "SETTINGS": {
     "TITLE": "Beállítások",
-    "CHANGE_LANGUAGE": { "TITLE": "Nyelvváltás" },
+    "CHANGE_LANGUAGE": {
+      "TITLE": "Nyelvváltás"
+    },
     "IMAGE_COMPRESSION": {
       "TITLE": "Képtömörítés",
       "DESCRIPTION": "A PNG-tömörítés veszteségmentes, ezért nem feltétlenül csökkenti jelentősen a fájl méretét, és a magasabb tömörítési értékek ronthatják a teljesítményt. A JPG és WebP tömörítés viszont veszteséges."
@@ -108,6 +110,10 @@
     },
     "SYSTEM_INFO": {
       "TITLE": "Rendszerinformációk"
+    },
+    "KEEP_ORIGINAL_FILENAME": {
+      "TITLE": "KEEP ORIGINAL FILENAME",
+      "DESCRIPTION": "Do not append scale and model details (e.g. _upscayl_4x_...) to the output file name."
     }
   },
   "APP": {

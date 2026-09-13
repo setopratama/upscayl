@@ -13,7 +13,9 @@
   },
   "SETTINGS": {
     "TITLE": "Ustawienia",
-    "CHANGE_LANGUAGE": { "TITLE": "Zmień Język" },
+    "CHANGE_LANGUAGE": {
+      "TITLE": "Zmień Język"
+    },
     "IMAGE_COMPRESSION": {
       "TITLE": "Kompresja obrazu",
       "DESCRIPTION": "Kompresja PNG jest bezstratna, więc rozmiar pliku może nie zostać znacząco zmniejszony, a wyższe wartości kompresji mogą mieć wpływ na wydajność. Kompresja JPG i WebP powoduje straty."
@@ -108,6 +110,10 @@
     },
     "SYSTEM_INFO": {
       "TITLE": "Informacje o Systemie"
+    },
+    "KEEP_ORIGINAL_FILENAME": {
+      "TITLE": "KEEP ORIGINAL FILENAME",
+      "DESCRIPTION": "Do not append scale and model details (e.g. _upscayl_4x_...) to the output file name."
     }
   },
   "APP": {

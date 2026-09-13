@@ -13,7 +13,9 @@
   },
   "SETTINGS": {
     "TITLE": "Cài đặt",
-    "CHANGE_LANGUAGE": { "TITLE": "Thay đổi ngôn ngữ" },
+    "CHANGE_LANGUAGE": {
+      "TITLE": "Thay đổi ngôn ngữ"
+    },
     "IMAGE_COMPRESSION": {
       "TITLE": "Nén hình ảnh",
       "DESCRIPTION": "Nén PNG là không mất mát, vì vậy có thể không giảm kích thước tệp một cách đáng kể và các giá trị nén cao hơn có thể ảnh hưởng đến hiệu suất. Nén JPG và WebP là có mất mát."
@@ -47,7 +49,7 @@
     "COPY_METADATA": {
       "TITLE": "SAO CHÉP METADATA ẢNH",
       "DESCRIPTION": "Giữ metadata gốc của ảnh (EXIF) trong ảnh đã được nâng cao.",
-      "SUGGEST_JPG_TITLE": "Đề Xuất Thay Đổi Định Dạng", 
+      "SUGGEST_JPG_TITLE": "Đề Xuất Thay Đổi Định Dạng",
       "SUGGEST_JPG_DESCRIPTION": "Để có khả năng tương thích metadata tốt hơn trên các hệ thống khác nhau, chúng tôi khuyên bạn nên sử dụng định dạng JPG. Bạn có muốn thay đổi không?",
       "CHANGE_TO_JPG": "Chuyển sang JPG",
       "KEEP_CURRENT_FORMAT": "Giữ {format}"
@@ -108,6 +110,10 @@
     },
     "SYSTEM_INFO": {
       "TITLE": "Thông tin Hệ thống"
+    },
+    "KEEP_ORIGINAL_FILENAME": {
+      "TITLE": "KEEP ORIGINAL FILENAME",
+      "DESCRIPTION": "Do not append scale and model details (e.g. _upscayl_4x_...) to the output file name."
     }
   },
   "APP": {
@@ -263,7 +269,7 @@
       "DESCRIPTION": "Vui lòng chọn một hình ảnh để tăng cường"
     },
     "METADATA_ERROR": {
-      "TITLE": "Lỗi Sao Chép Metadata", 
+      "TITLE": "Lỗi Sao Chép Metadata",
       "DESCRIPTION": "Không thể sao chép metadata từ ảnh gốc sang ảnh đã tạo. ({data})"
     },
     "OPEN_DOCS_TITLE": "Mở Tài liệu",
@@ -277,7 +283,7 @@
       "TITLE": "Cảnh báo về Metadata",
       "DESCRIPTION": "Trên một số hệ thống, metadata có thể không hiển thị trong các định dạng khác ngoài JPG. Sử dụng các công cụ chuyên dụng để xem metadata nếu cần."
     }
-  },    
+  },
   "UPSCAYL_CLOUD": {
     "COMING_SOON": "Sẽ ra mắt sớm!",
     "CATCHY_PHRASE_1": "Không còn lỗi, vấn đề phần cứng, thỏa hiệp chất lượng hoặc thời gian tải lâu!",

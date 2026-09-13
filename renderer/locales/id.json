@@ -13,7 +13,9 @@
   },
   "SETTINGS": {
     "TITLE": "Pengaturan",
-    "CHANGE_LANGUAGE": { "TITLE": "Ubah Bahasa" },
+    "CHANGE_LANGUAGE": {
+      "TITLE": "Ubah Bahasa"
+    },
     "IMAGE_COMPRESSION": {
       "TITLE": "Kompresi Gambar",
       "DESCRIPTION": "Kompresi PNG bersifat lossless, sehingga mungkin tidak mengurangi ukuran file secara signifikan dan nilai kompresi yang lebih tinggi dapat mempengaruhi kinerja. Kompresi JPG dan WebP bersifat lossy."
@@ -108,6 +110,10 @@
     },
     "SYSTEM_INFO": {
       "TITLE": "Info Sistem"
+    },
+    "KEEP_ORIGINAL_FILENAME": {
+      "TITLE": "PERTAHANKAN NAMA FILE ASLI",
+      "DESCRIPTION": "Jangan tambahkan detail skala dan model (seperti _upscayl_4x_...) ke nama file output."
     }
   },
   "APP": {

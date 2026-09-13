@@ -119,7 +119,7 @@ const batchUpscayl = async (event, payload: BatchUpscaylPayload) => {
             const originalFile = inputDir + slash + file;
             if (fs.existsSync(outFile) && fs.existsSync(originalFile)) {
                 try {
-                  await copyMetadata(inputDir, outFile);
+                  await copyMetadata(originalFile, outFile);
                   logit("✅ Metadata copied to: ", outFile);
                 } catch (error) {
                   logit("❌ Error copying metadata: ", error);

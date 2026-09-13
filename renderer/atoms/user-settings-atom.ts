@@ -100,3 +100,8 @@ export const copyMetadataAtom = atomWithStorage<boolean>(
   "copyMetadata",
   false,
 );
+
+export const keepOriginalFilenameAtom = atomWithStorage<boolean>(
+  "keepOriginalFilename",
+  false,
+);

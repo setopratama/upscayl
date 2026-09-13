@@ -13,7 +13,9 @@
   },
   "SETTINGS": {
     "TITLE": "設定",
-    "CHANGE_LANGUAGE": { "TITLE": "言語を変更する" },
+    "CHANGE_LANGUAGE": {
+      "TITLE": "言語を変更する"
+    },
     "IMAGE_COMPRESSION": {
       "TITLE": "画像圧縮",
       "DESCRIPTION": "PNG圧縮は非可逆的であるため、ファイルサイズが大幅に削減されることはなく、高い圧縮値はパフォーマンスに影響を与える可能性があります。JPGおよびWebP圧縮は可逆的です。"
@@ -108,6 +110,10 @@
     },
     "SYSTEM_INFO": {
       "TITLE": "システム情報"
+    },
+    "KEEP_ORIGINAL_FILENAME": {
+      "TITLE": "KEEP ORIGINAL FILENAME",
+      "DESCRIPTION": "Do not append scale and model details (e.g. _upscayl_4x_...) to the output file name."
     }
   },
   "APP": {
@@ -277,7 +283,7 @@
       "TITLE": "メタデータの警告",
       "DESCRIPTION": "一部のシステムでは、JPG以外の形式ではメタデータが表示されない場合があります。必要に応じて専用のツールを使用してメタデータを表示してください。"
     }
-  },   
+  },
   "UPSCAYL_CLOUD": {
     "COMING_SOON": "近日公開！",
     "CATCHY_PHRASE_1": "もうエラー、ハードウェアの問題、品質の妥協や長い読み込み時間はありません！",

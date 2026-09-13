@@ -48,15 +48,27 @@ const imageUpscayl = async (event, payload: ImageUpscaylPayload) => {
   const fileNameWithExt = getFilenameFromPath(imagePath);
   const fileName = parse(fileNameWithExt).name;
 
-  const outFile =
+  const keepOriginalFilename = payload.keepOriginalFilename;
+
+  let outFile =
     outputDir +
     slash +
     fileName +
-    "_upscayl_" +
-    (useCustomWidth ? `${customWidth}px_` : `${scale}x_`) +
-    model +
+    (keepOriginalFilename
+      ? ""
+      : "_upscayl_" +
+        (useCustomWidth ? `${customWidth}px_` : `${scale}x_`) +
+        model) +
     "." +
     saveImageAs;
+
+  // Prevent overwriting original file if saving to the same folder with the same name and format
+  if (
+    keepOriginalFilename &&
+    imagePath.toLowerCase() === outFile.toLowerCase()
+  ) {
+    outFile = outputDir + slash + fileName + "_upscaled." + saveImageAs;
+  }
 
   const isDefaultModel = model in MODELS;
 

@@ -13,7 +13,9 @@
   },
   "SETTINGS": {
     "TITLE": "Configurações",
-    "CHANGE_LANGUAGE": { "TITLE": "Alterar Idioma" },
+    "CHANGE_LANGUAGE": {
+      "TITLE": "Alterar Idioma"
+    },
     "IMAGE_COMPRESSION": {
       "TITLE": "Compressão de Imagem",
       "DESCRIPTION": "A compressão PNG não tem perdas, portanto pode não reduzir o tamanho do arquivo significantemente e valores elevados de compressão podem afetar o desempenho. Compressões JPG and WebP têm perdas."
@@ -108,6 +110,10 @@
     },
     "SYSTEM_INFO": {
       "TITLE": "Informações do Sistema"
+    },
+    "KEEP_ORIGINAL_FILENAME": {
+      "TITLE": "KEEP ORIGINAL FILENAME",
+      "DESCRIPTION": "Do not append scale and model details (e.g. _upscayl_4x_...) to the output file name."
     }
   },
   "APP": {
@@ -277,7 +283,7 @@
       "TITLE": "Aviso de Metadados",
       "DESCRIPTION": "Em alguns sistemas, os metadados podem não ser visíveis em formatos diferentes de JPG. Use ferramentas específicas para visualizar metadados se necessário."
     }
-  },    
+  },
   "UPSCAYL_CLOUD": {
     "COMING_SOON": "Em breve!",
     "CATCHY_PHRASE_1": "Chega de erros, problemas de hardware, sacrifício de qualidade, ou tempos de espera longos!",

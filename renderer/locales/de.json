@@ -13,7 +13,9 @@
   },
   "SETTINGS": {
     "TITLE": "Einstellungen",
-    "CHANGE_LANGUAGE": { "TITLE": "Sprache ändern" },
+    "CHANGE_LANGUAGE": {
+      "TITLE": "Sprache ändern"
+    },
     "IMAGE_COMPRESSION": {
       "TITLE": "Bildkompression",
       "DESCRIPTION": "PNG-Kompression ist verlustfrei, daher reduziert sie die Dateigröße möglicherweise nicht signifikant und höhere Komprimierungswerte können die Leistung beeinträchtigen. JPG- und WebP-Kompression sind verlustbehaftet."
@@ -108,6 +110,10 @@
     },
     "SYSTEM_INFO": {
       "TITLE": "Systeminfo"
+    },
+    "KEEP_ORIGINAL_FILENAME": {
+      "TITLE": "KEEP ORIGINAL FILENAME",
+      "DESCRIPTION": "Do not append scale and model details (e.g. _upscayl_4x_...) to the output file name."
     }
   },
   "APP": {
@@ -277,7 +283,7 @@
       "TITLE": "Metadaten-Warnung",
       "DESCRIPTION": "Auf einigen Systemen sind die Metadaten in anderen Formaten als JPG möglicherweise nicht sichtbar. Verwende gegebenenfalls spezielle Tools zum Anzeigen der Metadaten."
     }
-  },  
+  },
   "UPSCAYL_CLOUD": {
     "COMING_SOON": "Kommt bald!",
     "CATCHY_PHRASE_1": "Keine Fehler mehr, Hardwareprobleme, Qualitätseinbußen oder lange Ladezeiten!",

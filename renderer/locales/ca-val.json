@@ -110,6 +110,10 @@
     },
     "SYSTEM_INFO": {
       "TITLE": "Informació del sistema"
+    },
+    "KEEP_ORIGINAL_FILENAME": {
+      "TITLE": "KEEP ORIGINAL FILENAME",
+      "DESCRIPTION": "Do not append scale and model details (e.g. _upscayl_4x_...) to the output file name."
     }
   },
   "APP": {

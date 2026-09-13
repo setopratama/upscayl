@@ -13,7 +13,9 @@
   },
   "SETTINGS": {
     "TITLE": "设置",
-    "CHANGE_LANGUAGE": { "TITLE": "更改语言" },
+    "CHANGE_LANGUAGE": {
+      "TITLE": "更改语言"
+    },
     "IMAGE_COMPRESSION": {
       "TITLE": "图片压缩",
       "DESCRIPTION": "PNG 压缩是无损的，因此可能不会显著减少文件大小，而更高的压缩比值可能会影响性能。JPG 和 WebP 压缩是有损的。"
@@ -108,6 +110,10 @@
     },
     "SYSTEM_INFO": {
       "TITLE": "系统信息"
+    },
+    "KEEP_ORIGINAL_FILENAME": {
+      "TITLE": "KEEP ORIGINAL FILENAME",
+      "DESCRIPTION": "Do not append scale and model details (e.g. _upscayl_4x_...) to the output file name."
     }
   },
   "APP": {
@@ -277,7 +283,7 @@
       "TITLE": "元数据警告",
       "DESCRIPTION": "在某些系统上，JPG 以外的格式可能无法显示元数据。如有需要，请使用专门的工具查看元数据。"
     }
-  },    
+  },
   "UPSCAYL_CLOUD": {
     "COMING_SOON": "即将推出！",
     "CATCHY_PHRASE_1": "该与错误、硬件问题、质量妥协和漫长的等待告别喽！",

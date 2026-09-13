@@ -26,6 +26,7 @@ import AutoUpdateToggle from "./auto-update-toggle";
 import TTAModeToggle from "./tta-mode-toggle";
 import SystemInfo from "./system-info";
 import CopyMetadataToggle from "./copy-metadata-toggle";
+import KeepOriginalFilenameToggle from "./keep-original-filename-toggle";
 
 interface IProps {
   batchMode: boolean;
@@ -185,6 +186,9 @@ function SettingsTab({
       
       {/* COPY METADATA TOGGLE */}
       <CopyMetadataToggle saveImageAs={saveImageAs} setExportType={setExportType} />
+
+      {/* KEEP ORIGINAL FILENAME TOGGLE */}
+      <KeepOriginalFilenameToggle />
 
       {/* IMAGE SCALE */}
       <SelectImageScale scale={scale} setScale={setScale} />
