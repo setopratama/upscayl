@@ -12,6 +12,10 @@ const PostHogProviderWrapper = ({
   const enableContribution = useAtomValue(enableContributionAtom);
 
   useEffect(() => {
+    if (enableContribution === false) {
+      return;
+    }
+
     posthog.init("phc_QMcmlmComdofjfaRPzoN4KV9ziV2KgOwAOVyu4J3dIc", {
       api_host: "https://us.i.posthog.com",
       person_profiles: "always",
@@ -19,6 +23,12 @@ const PostHogProviderWrapper = ({
       capture_pageview: false,
       capture_pageleave: false,
       disable_session_recording: true,
+      disable_surveys: true,
+      disable_web_experiments: true,
+      advanced_disable_decide: true,
+      advanced_disable_feature_flags: true,
+      advanced_disable_feature_flags_on_first_load: true,
+      feature_flag_request_timeout_ms: 15000,
       loaded: async (posthog) => {
         if (process.env.NODE_ENV === "development") posthog.debug();
         const systemInfo = await window.electron.getSystemInfo();
@@ -35,7 +45,7 @@ const PostHogProviderWrapper = ({
         });
       },
     });
-  }, []);
+  }, [enableContribution]);
 
   if (enableContribution === false) return <>{children}</>;
 

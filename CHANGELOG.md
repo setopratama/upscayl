@@ -28,6 +28,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - **EXIF Metadata Copying in Batch Upscaling**:
   - Fixed an issue in `electron/commands/batch-upscayl.ts` where `copyMetadata` was receiving the folder path (`inputDir`) instead of the individual file path (`originalFile`).
   - EXIF metadata is now accurately copied to each processed image during batch/folder upscaling.
+- **PostHog AbortError Suppression & Network Optimization**:
+  - Fixed `AbortError: signal is aborted without reason` console error by setting `advanced_disable_decide: true` and disabling unused feature flag, survey, and experiment endpoints in `renderer/components/posthog-provider-wrapper.tsx`.
+  - Added conditional initialization so PostHog respects the `enableContribution` setting and ceases network traffic when disabled.
 
 ---
 

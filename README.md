@@ -63,6 +63,7 @@ Enlarge images without losing quality. It's almost like magic! 🎩🪄
 
 # Contents
 
+- [✨ Key Features](#-key-features)
 - [👨‍💻 Installation](#-installation)
   - [🐧 Linux](#-linux)
   - [🍎 macOS](#-macos)
@@ -74,6 +75,17 @@ Enlarge images without losing quality. It's almost like magic! 🎩🪄
 - [🤓 FAQ](#-faq)
 - [🎁 Donate and support the project](#-donate)
 - [❤ Credits](#-credits)
+
+# ✨ Key Features
+
+- 🖼️ **Multiple AI Upscaling Models**: Built-in support for Real-ESRGAN, Remacri, UltraSharp, Ultramix Balanced, High Fidelity, and custom NCNN models.
+- 📁 **Batch Processing**: Upscale entire folders of images seamlessly with preserved EXIF metadata.
+- 🏷️ **Keep Original Filename**: Option to retain original file naming without mandatory model suffixes, equipped with smart collision protection.
+- 🔍 **Interactive Comparison Slider & Double Upscaling**: Real-time side-by-side comparison slider and double upscaling up to 16x.
+- 🔒 **100% Local & Private**: Runs entirely on your local GPU via Vulkan NCNN. No images leave your computer.
+- 🌐 **Optimized Network Footprint**: Fast startup with zero unnecessary telemetry requests and respected privacy opt-out.
+- 🌍 **Multi-Language Support**: Fully localized into 20 languages.
+
 
 # 👨‍💻 Installation
 
@@ -147,6 +159,8 @@ Check out our Documentation [here](https://docs.upscayl.org/).
 - [Convert your own models](https://github.com/upscayl/upscayl/wiki/%F0%9F%96%A5%EF%B8%8F-Model-Conversion---Create-more-AI-models!)
 - [Compatibility List](https://github.com/upscayl/upscayl/wiki/Compatibility-List)
 - [Troubleshooting](https://github.com/upscayl/upscayl/wiki/Troubleshooting)
+- [Developer & AI Agent Architecture Guide](AGENTS.md)
+- [Changelog & Version History](CHANGELOG.md)
 
 # ⚖️ Results
 
@@ -166,10 +180,10 @@ Download and install volta, then do: `volta install node`.
 
 ## 🏃 Running
 > [!NOTE]
-> If you are not willing to install [git](https://git-scm.com/downloads), you can skip the first line, download [the source zip](https://github.com/upscayl/upscayl/archive/refs/heads/main.zip) and extract it to `upscayl` instead and carry on with the rest of the instructions.
+> If you are not willing to install [git](https://git-scm.com/downloads), you can skip the first line, download [the source zip](https://github.com/setopratama/upscayl/archive/refs/heads/main.zip) and extract it to `upscayl` instead and carry on with the rest of the instructions.
 
 ```sh
-git clone https://github.com/upscayl/upscayl
+git clone https://github.com/setopratama/upscayl
 cd upscayl
 
 # INSTALL DEPENDENCIES
